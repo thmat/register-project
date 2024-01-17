@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Settings | CodingLab</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: #1abc9c;
+            overflow: hidden;
+        }
+
+        ::selection {
+            background: rgba(26, 188, 156, 0.3);
+        }
+
+        .container {
+            max-width: 440px;
+            padding: 0 20px;
+            margin: 170px auto;
+        }
+
+        .wrapper {
+            width: 100%;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0px 4px 10px 1px rgba(0, 0, 0, 0.1);
+        }
+
+        .wrapper .title {
+            height: 90px;
+            background: #16a085;
+            border-radius: 5px 5px 0 0;
+            color: #fff;
+            font-size: 30px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .wrapper .content {
+            padding: 30px 25px 25px 25px;
+            text-align: center;
+        }
+
+        .wrapper .content .button {
+            display: block;
+            margin-top: 20px;
+            background: #16a085;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        .wrapper .content .button:hover {
+            background: #12876f;
+        }
+    </style>
+</head>
+
+<body>
+<div class="container">
+    <div class="wrapper">
+        <div class="title"><span>Account Settings</span></div>
+        <div class="content">
+            <a href="/add-phone" class="button">Add Phone</a>
+            <a href="/change-password" class="button">Change Password</a>
+            <a href="/change-username" class="button">Change Username</a>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
